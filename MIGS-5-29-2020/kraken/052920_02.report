@@ -1,0 +1,211 @@
+# KrakenUniq v0.5.8 DATE:2020-05-31T00:38:18Z DB:../../krakenuniq/kraken_viral_db/ DB_SIZE:3071873740 WD:/groups/banfield/users/alexcc/wastewater/MIGS-5-29-2020/kraken
+# CL:perl ../../krakenuniq/krakenuniq --db ../../krakenuniq/kraken_viral_db/ --threads 16 --report-file 052920_02.report ../raw/052920_02/5_13_C_S2_R1_001.fastq.gz ../raw/052920_02/5_13_C_S2_R2_001.fastq.gz
+
+%	reads	taxReads	kmers	dup	cov	taxID	rank	taxName
+90.4	178347	178347	394036	20.2	NA	0	no rank	unclassified
+9.604	18949	0	32678	23.7	0.0001277	1	no rank	root
+9.604	18949	159	32678	23.7	0.0001277	10239	superkingdom	  Viruses
+9.309	18367	3	31315	24.3	0.0008531	2559587	no rank	    Riboviria
+9.262	18273	1	31227	24.3	0.001142	2732396	kingdom	      Orthornavirae
+6.75	13318	0	24730	23	0.002649	2732408	phylum	        Pisuviricota
+6.745	13308	0	24721	23	0.003666	2732506	class	          Pisoniviricetes
+6.744	13306	0	24721	23	0.008113	76804	order	            Nidovirales
+6.744	13306	0	24721	23	0.01445	2499399	suborder	              Cornidovirineae
+6.744	13306	0	24721	23	0.01445	11118	family	                Coronaviridae
+6.744	13306	0	24721	23	0.01525	2501931	subfamily	                  Orthocoronavirinae
+6.744	13306	0	24721	23	0.05012	694002	genus	                    Betacoronavirus
+6.744	13306	2	24721	23	0.2824	2509511	subgenus	                      Sarbecovirus
+6.743	13304	33	24613	22.9	0.4221	694009	species	                        Severe acute respiratory syndrome-related coronavirus
+6.726	13271	0	24169	22.9	0.8328	2697049	no rank	                          Severe acute respiratory syndrome coronavirus 2
+6.726	13271	0	24169	22.9	0.8328	1000011443	assembly	                            GCF_009858895.2 Severe acute respiratory syndrome coronavirus 2
+6.726	13271	13271	24169	22.9	0.8328	1000011444	sequence	                              NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+0.001014	2	0	4	1	1.109e-06	464095	order	            Picornavirales
+0.001014	2	0	4	1	3.202e-06	12058	family	              Picornaviridae
+0.0005069	1	0	3	1	7.658e-05	686982	genus	                Sapelovirus
+0.0005069	1	0	3	1	0.0003648	686983	species	                  Avian sapelovirus
+0.0005069	1	0	3	1	0.0003648	1000007673	assembly	                    GCF_000854225.1 Avian sapelovirus
+0.0005069	1	1	3	1	0.0003648	1000007674	sequence	                      NC_006553.1 Avian sapelovirus, complete genome
+0.0005069	1	0	1	1	6.542e-05	1481451	genus	                Mosavirus
+0.0005069	1	0	1	1	6.542e-05	1481452	species	                  Mosavirus A
+0.0005069	1	0	1	1	0.0001446	1074428	no rank	                    Mouse Mosavirus
+0.0005069	1	0	1	1	0.0001446	1000011275	assembly	                      GCF_002817275.1 Mouse Mosavirus strain=Mosa.M-7
+0.0005069	1	1	1	1	0.0001446	1000011276	sequence	                        NC_038318.1 Mouse Mosavirus strain Mosa.M-7 polyprotein gene, complete cds
+0.005069	10	0	12	1.92	2.056e-05	2732505	class	          Duplopiviricetes
+0.005069	10	0	12	1.92	2.056e-05	2732549	order	            Durnavirales
+0.005069	10	1	12	1.92	3.968e-05	11012	family	              Partitiviridae
+0.002534	5	1	2	3	1.816e-05	37960	no rank	                unclassified Partitiviridae
+0.002027	4	0	1	5	0.0002662	1411681	species	                  Rhizoctonia solani dsRNA virus 2
+0.002027	4	0	1	5	0.0002662	1000014214	assembly	                    GCF_000918495.1 Rhizoctonia solani dsRNA virus 2
+0.002027	4	4	1	5	0.0005637	1000014216	sequence	                      NC_023685.1 Rhizoctonia solani dsRNA virus 2 segment 2, complete sequence
+0.002027	4	0	8	1.88	9.348e-05	1511809	genus	                Betapartitivirus
+0.001521	3	0	1	3	0.0002259	674983	species	                  Pleurotus ostreatus virus 1
+0.001521	3	0	1	3	0.0002259	1000003098	assembly	                    GCF_000859745.1 Pleurotus ostreatus virus 1
+0.001521	3	3	1	3	0.0004627	1000003100	sequence	                      NC_006960.1 Pleurotus ostreatus virus 1 RNA-2, complete genome
+0.0005069	1	0	4	1	0.000638	75747	species	                  Fusarium poae virus 1
+0.0005069	1	0	4	1	0.00206	1849534	no rank	                    Fusarium poae virus 1-240374
+0.0005069	1	0	4	1	0.00206	1000008369	assembly	                      GCF_001722845.1 Fusarium poae virus 1-240374
+0.0005069	1	1	4	1	0.004957	1000008370	sequence	                        NC_030882.1 Fusarium poae virus 1-240374 genomic RNA, segment 1, complete sequence, strain: 240374
+2.48	4892	1	6693	28.3	0.0009776	2732406	phylum	        Kitrinoviricota
+2.442	4818	0	6629	28.4	0.001458	2732461	class	          Alsuviricetes
+2.432	4799	0	6611	28.5	0.002417	2732544	order	            Martellivirales
+2.431	4797	0	6608	28.5	0.01417	675071	family	              Virgaviridae
+2.43	4795	0	6606	28.5	0.02856	12234	genus	                Tobamovirus
+2.052	4048	0	4991	32.5	0.8041	1761477	species	                  Tomato brown rugose fruit virus
+2.052	4048	0	4991	32.5	0.8041	1000011293	assembly	                    GCF_001461485.1 Tomato brown rugose fruit virus
+2.052	4048	4048	4991	32.5	0.8041	1000011294	sequence	                      NC_028478.1 Tomato brown rugose fruit virus isolate Tom1-Jo, complete genome
+0.1561	308	0	629	17.1	0.1034	12253	species	                  Tomato mosaic virus
+0.1561	308	0	629	17.1	0.1034	1000006432	assembly	                    GCF_000853705.1 Tomato mosaic virus
+0.1561	308	308	629	17.1	0.1034	1000006433	sequence	                      NC_002692.1 Tomato mosaic virus, complete genome
+0.1211	239	0	434	15.4	0.06892	12239	species	                  Pepper mild mottle virus
+0.1211	239	0	434	15.4	0.06892	1000006378	assembly	                    GCF_000859645.1 Pepper mild mottle virus strain=S
+0.1211	239	239	434	15.4	0.06892	1000006379	sequence	                      NC_003630.1 Pepper mild mottle virus, complete genome
+0.08008	158	0	366	12.4	0.05737	12235	species	                  Cucumber green mottle mosaic virus
+0.08008	158	0	366	12.4	0.05737	1000004810	assembly	                    GCF_000849225.1 Cucumber green mottle mosaic virus strain=SH
+0.08008	158	158	366	12.4	0.05737	1000004811	sequence	                      NC_001801.1 Cucumber green mottle mosaic virus, complete genome
+0.01521	30	0	86	14.6	0.01366	327387	species	                  Tropical soda apple mosaic virus
+0.01521	30	0	86	14.6	0.01366	1000010443	assembly	                    GCF_001654245.1 Tropical soda apple mosaic virus
+0.01521	30	30	86	14.6	0.01366	1000010444	sequence	                      NC_030229.1 Tropical soda apple mosaic virus isolate Okeechobee, complete genome
+0.006082	12	0	7	12	0.001134	12242	species	                  Tobacco mosaic virus
+0.006082	12	0	7	12	0.001134	1000001330	assembly	                    GCF_000854365.1 Tobacco mosaic virus
+0.006082	12	12	7	12	0.001134	1000001331	sequence	                      NC_001367.1 Tobacco mosaic virus, complete genome
+0.001014	2	0	2	1.5	0.0001206	1920771	genus	                Goravirus
+0.001014	2	0	2	1.5	0.0002161	1920772	species	                  Gentian ovary ringspot virus
+0.001014	2	0	2	1.5	0.0002161	1000003906	assembly	                    GCF_000921435.1 Gentian ovary ringspot virus
+0.001014	2	2	2	1.5	0.0005312	1000003908	sequence	                      NC_024502.1 Gentian ovary ring-spot virus genomic RNA, segment 2, complete sequence, isolate: S
+0.001014	2	0	1	2	1.412e-05	2560061	family	              Kitaviridae
+0.001014	2	0	1	2	3.456e-05	2022856	genus	                Blunervirus
+0.001014	2	0	1	2	6.71e-05	2419938	no rank	                  unclassified Blunervirus
+0.001014	2	0	1	2	6.71e-05	2419939	species	                    Tea plant necrotic ring blotch virus
+0.001014	2	0	1	2	6.71e-05	1000021738	assembly	                      GCF_004117515.1 Tea plant necrotic ring blotch virus
+0.001014	2	2	1	2	0.0002435	1000021740	sequence	                        NC_040404.1 Tea plant necrotic ring blotch virus segment RNA2, complete sequence
+0.00963	19	0	7	14.9	4.22e-06	675063	order	            Tymovirales
+0.009123	18	0	6	17.2	2.295e-05	249184	family	              Tymoviridae
+0.009123	18	0	6	17.2	4.835e-05	12148	genus	                Tymovirus
+0.009123	18	0	6	17.2	0.0009483	71030	species	                  Chayote mosaic virus
+0.009123	18	0	6	17.2	0.0009483	1000001925	assembly	                    GCF_000862665.1 Chayote mosaic virus
+0.009123	18	18	6	17.2	0.0009483	1000001926	sequence	                      NC_002588.1 Chayote mosaic virus, complete genome
+0.0005069	1	0	1	1	3.189e-05	2169568	family	              Deltaflexiviridae
+0.0005069	1	0	1	1	3.189e-05	2169569	genus	                Deltaflexivirus
+0.0005069	1	0	1	1	0.0001229	2169865	species	                  Sclerotinia deltaflexivirus 1
+0.0005069	1	0	1	1	0.0001229	1788309	no rank	                    Sclerotinia sclerotiorum deltaflexivirus 1
+0.0005069	1	0	1	1	0.0001229	1000011100	assembly	                      GCF_003029215.1 Sclerotinia sclerotiorum deltaflexivirus 1
+0.0005069	1	1	1	1	0.0001229	1000011101	sequence	                        NC_038977.1 Sclerotinia sclerotiorum deltaflexivirus 1 isolate AX19 polyprotein and hypothetical protein genes, complete cds
+0.03548	70	0	58	16.1	9.624e-05	2732463	class	          Tolucaviricetes
+0.03548	70	0	58	16.1	9.624e-05	2732548	order	            Tolivirales
+0.03548	70	0	58	16.1	0.0001971	39738	family	              Tombusviridae
+0.03548	70	0	58	16.1	0.0002642	2560077	subfamily	                Procedovirinae
+0.03548	70	0	58	16.1	0.003575	1911601	genus	                  Gammacarmovirus
+0.03548	70	0	58	16.1	0.0137	11987	species	                    Melon necrotic spot virus
+0.03548	70	0	58	16.1	0.0137	1000004806	assembly	                      GCF_000865645.1 Melon necrotic spot virus
+0.03548	70	70	58	16.1	0.0137	1000004807	sequence	                        NC_001504.1 Melon necrotic spot virus, genome
+0.001521	3	0	2	1.5	1.258e-06	2732462	class	          Flasuviricetes
+0.001521	3	0	2	1.5	1.258e-06	2732545	order	            Amarillovirales
+0.001521	3	0	2	1.5	1.258e-06	11050	family	              Flaviviridae
+0.001521	3	0	2	1.5	8.704e-06	11102	genus	                Hepacivirus
+0.001521	3	0	2	1.5	3.052e-05	11103	species	                  Hepacivirus C
+0.001014	2	0	1	2	0.000107	40271	no rank	                    Hepatitis C virus genotype 2
+0.001014	2	0	1	2	0.000107	1000004264	assembly	                      GCF_000871165.1 Hepatitis C virus genotype 2 strain=HC-J6CH
+0.001014	2	2	1	2	0.000107	1000004265	sequence	                        NC_009823.1 Hepatitis C virus genotype 2, complete genome
+0.0005069	1	1	1	1	9.982e-05	41856	no rank	                    Hepatitis C virus genotype 1
+0.03142	62	0	20	14.2	2.543e-06	2497569	phylum	        Negarnaviricota
+0.03142	62	0	20	14.2	5.296e-06	2497571	subphylum	          Polyploviricotina
+0.03142	62	0	20	14.2	5.602e-06	2497576	class	            Ellioviricetes
+0.03142	62	0	20	14.2	5.602e-06	1980410	order	              Bunyavirales
+0.01977	39	0	5	31	1.196e-05	1980413	family	                Hantaviridae
+0.01977	39	0	5	31	1.196e-05	2560074	subfamily	                  Mammantavirinae
+0.01977	39	0	5	31	1.416e-05	1980442	genus	                    Orthohantavirus
+0.01977	39	0	5	31	0.0005187	1980484	species	                      Oxbow orthohantavirus
+0.01977	39	0	5	31	0.0005187	660954	no rank	                        Oxbow virus
+0.01977	39	0	5	31	0.0005187	1000000383	assembly	                          GCF_002829245.1 Oxbow virus strain=Ng1453
+0.01977	39	39	5	31	0.001384	1000000385	sequence	                            NC_043176.1 Oxbow virus strain Ng1453 glycoprotein gene, complete cds
+0.01166	23	0	15	8.53	1.486e-05	1980416	family	                Peribunyaviridae
+0.01166	23	0	15	8.53	1.784e-05	11572	genus	                  Orthobunyavirus
+0.01115	22	0	11	11.3	0.000913	35306	species	                    Simbu orthobunyavirus
+0.01115	22	0	11	11.3	0.000913	1000007904	assembly	                      GCF_000897575.1 Simbu orthobunyavirus
+0.01115	22	22	11	11.3	0.001606	1000007905	sequence	                        NC_018476.1 Simbu virus RdRp gene for RNA-dependent RNA polymerase, segment L, genomic RNA, isolate SA Ar 53
+0.0005069	1	0	4	1	0.0003668	159150	species	                    Shamonda orthobunyavirus
+0.0005069	1	0	4	1	0.0003668	1000009015	assembly	                      GCF_000900015.1 Shamonda orthobunyavirus
+0.0005069	1	1	4	1	0.009901	1000009018	sequence	                        NC_018464.1 Shamonda virus N and NSs genes, segment S, genomic RNA, isolate Ib An 5550
+0.04612	91	0	101	14	1.315e-05	2585030	no rank	      unclassified Riboviria
+0.04612	91	0	101	14	1.484e-05	1922348	no rank	        unclassified RNA viruses ShiM-2016
+0.02534	50	0	58	13.6	0.02073	1923727	species	          Wuhan insect virus 23
+0.02534	50	0	58	13.6	0.02073	1000019070	assembly	            GCF_001921615.1 Wuhan insect virus 23 strain=WHCCII13263
+0.02534	50	50	58	13.6	0.04293	1000019072	sequence	              NC_032147.1 Wuhan insect virus 23 strain WHCCII13263 segment Seg 2 hypothetical protein gene, complete cds
+0.01318	26	0	32	14.3	0.003929	1923634	species	          Wenzhou picorna-like virus 47
+0.01318	26	0	32	14.3	0.003929	1000016396	assembly	            GCF_001957975.1 Wenzhou picorna-like virus 47 strain=WHCCII11151
+0.01318	26	26	32	14.3	0.003929	1000016397	sequence	              NC_033150.1 Wenzhou picorna-like virus 47 strain WHCCII11151 hypothetical protein gene, complete cds
+0.007603	15	0	11	15	0.001276	1923144	species	          Hubei picorna-like virus 61
+0.007603	15	0	11	15	0.001276	1000013652	assembly	            GCF_001957495.1 Hubei picorna-like virus 61 strain=mosHB235903
+0.007603	15	15	11	15	0.001276	1000013653	sequence	              NC_033003.1 Hubei picorna-like virus 61 strain mosHB235903 hypothetical protein gene, complete cds
+0.1703	336	0	1202	6.83	8.154e-06	2731341	no rank	    Duplodnaviria
+0.1703	336	0	1202	6.83	8.154e-06	2731360	no rank	      Heunggongvirae
+0.1683	332	0	1184	6.91	8.877e-06	2731618	phylum	        Uroviricota
+0.1683	332	0	1184	6.91	8.877e-06	2731619	class	          Caudoviricetes
+0.1683	332	0	1184	6.91	8.877e-06	28883	order	            Caudovirales
+0.1597	315	0	1137	6.75	2.45e-05	10699	family	              Siphoviridae
+0.1282	253	0	224	28.1	0.00599	186765	genus	                Lambdavirus
+0.1282	253	0	224	28.1	0.1038	2169967	species	                  Escherichia virus DE3
+0.1282	253	0	224	28.1	0.1038	482822	no rank	                    Escherichia phage DE3
+0.1282	253	0	224	28.1	0.1038	1000016864	assembly	                      GCF_002758635.1 Escherichia phage DE3
+0.1282	253	253	224	28.1	0.1038	1000016865	sequence	                        NC_042057.1 Enterobacteria phage DE3, complete genome
+0.03142	62	10	903	1.42	7.221e-05	196894	no rank	                unclassified Siphoviridae
+0.02433	48	0	819	1.26	0.0182	1610509	species	                  Achromobacter phage phiAxp-1
+0.02433	48	0	819	1.26	0.0182	1000008737	assembly	                    GCF_001504575.1 Achromobacter phage phiAxp-1
+0.02433	48	48	819	1.26	0.0182	1000008738	sequence	                      NC_029033.1 Achromobacter phage phiAxp-1, complete genome
+0.002027	4	0	74	2	0.004225	563769	species	                  Stx2-converting phage 1717
+0.002027	4	0	74	2	0.004225	1000010367	assembly	                    GCF_000880675.1 Stx2-converting phage 1717
+0.002027	4	4	74	2	0.004225	1000010368	sequence	                      NC_011357.1 Stx2-converting phage 1717, complete prophage genome
+0.007096	14	0	45	11.3	8.585e-07	10662	family	              Myoviridae
+0.006589	13	0	44	11.5	0.0002258	186789	genus	                Punavirus
+0.006589	13	0	44	11.5	0.001252	10678	species	                  Escherichia virus P1
+0.006589	13	0	44	11.5	0.001252	1000001512	assembly	                    GCF_000844165.1 Escherichia virus P1
+0.006589	13	13	44	11.5	0.001252	1000001513	sequence	                      NC_005856.1 Enterobacteria phage P1, complete genome
+0.0005069	1	0	1	2	1.33e-06	1636616	subfamily	                Eucampyvirinae
+0.0005069	1	0	1	2	2.111e-06	1636617	genus	                  Firehammervirus
+0.0005069	1	0	1	2	1.036e-05	1006972	species	                    Campylobacter virus IBB35
+0.0005069	1	0	1	2	1.036e-05	1000000899	assembly	                      GCF_001308675.2 Campylobacter virus IBB35
+0.0005069	1	1	1	2	6.777e-05	1000000901	sequence	                        NC_041831.1 Campylobacter phage vB_CcoM-IBB_35 clone Contig3, complete sequence
+0.001014	2	0	1	2	1.022e-07	2731643	family	              Autographiviridae
+0.001014	2	0	1	2	2.24e-06	2731645	subfamily	                Beijerinckvirinae
+0.001014	2	0	1	2	2.751e-06	1985711	genus	                  Friunavirus
+0.001014	2	0	1	2	8.757e-06	2171721	no rank	                    unclassified Friunavirus
+0.001014	2	0	1	2	8.882e-05	2500826	species	                      Acinetobacter phage AbKT21phiIII
+0.001014	2	0	1	2	8.882e-05	1000019536	assembly	                        GCF_004015525.1 Acinetobacter phage AbKT21phiIII
+0.001014	2	2	1	2	8.882e-05	1000019537	sequence	                          NC_048142.1 Acinetobacter phage AbKT21phiIII, complete genome
+0.0005069	1	0	1	1	1.152e-07	10744	family	              Podoviridae
+0.0005069	1	0	1	1	2.255e-06	542836	subfamily	                Picovirinae
+0.0005069	1	0	1	1	3.312e-06	2609909	no rank	                  unclassified Picovirinae
+0.0005069	1	0	1	1	5.314e-05	1874002	species	                    Bacillus phage Stitch
+0.0005069	1	0	1	1	5.314e-05	1000011309	assembly	                      GCF_001745655.1 Bacillus phage Stitch
+0.0005069	1	1	1	1	5.314e-05	1000011310	sequence	                        NC_031032.1 Bacillus phage Stitch, complete genome
+0.002027	4	0	18	1.22	1.283e-06	2731361	phylum	        Peploviricota
+0.002027	4	0	18	1.22	1.283e-06	2731363	class	          Herviviricetes
+0.002027	4	0	18	1.22	1.283e-06	548681	order	            Herpesvirales
+0.002027	4	0	18	1.22	1.566e-06	10292	family	              Herpesviridae
+0.002027	4	0	15	1.27	3.486e-06	10293	subfamily	                Alphaherpesvirinae
+0.002027	4	0	15	1.27	9.839e-06	10319	genus	                  Varicellovirus
+0.001521	3	0	14	1.29	0.0001953	202910	species	                    Bubaline alphaherpesvirus 1
+0.001521	3	0	14	1.29	0.0001953	1000009101	assembly	                      GCF_002814715.1 Bubaline alphaherpesvirus 1 strain=b6
+0.001521	3	3	14	1.29	0.0001953	1000009102	sequence	                        NC_043054.1 Bubaline alphaherpesvirus 1 strain b6, complete genome
+0.0005069	1	0	1	1	8.093e-06	10345	species	                    Suid alphaherpesvirus 1
+0.0005069	1	0	1	1	8.093e-06	1000001371	assembly	                      GCF_000843825.1 Suid alphaherpesvirus 1 strain=Composite of 6 strains
+0.0005069	1	1	1	1	8.093e-06	1000001372	sequence	                        NC_006151.1 Suid herpesvirus 1, complete genome
+0.04207	83	0	16	11.2	1.63e-06	10442	family	    Baculoviridae
+0.04207	83	0	16	11.2	5.836e-06	558017	genus	      Betabaculovirus
+0.04207	83	0	16	11.2	0.0001547	56947	species	        Choristoneura fumiferana granulovirus
+0.04207	83	0	16	11.2	0.0001547	1000008195	assembly	          GCF_000869805.1 Choristoneura fumiferana granulovirus
+0.04207	83	83	16	11.2	0.0001547	1000008196	sequence	            NC_008168.1 Choristoneura fumiferana granulovirus, complete genome
+0.001014	2	0	2	2	1.145e-07	12429	no rank	    unclassified viruses
+0.001014	2	0	2	2	0.001238	1736634	species	      Torulaspora delbrueckii dsRNA Mbarr-1 killer virus
+0.001014	2	0	2	2	0.001238	1000001847	assembly	        GCF_001401365.1 Torulaspora delbrueckii dsRNA Mbarr-1 killer virus strain=EX1180
+0.001014	2	2	2	2	0.001238	1000001848	sequence	          NC_028095.1 Torulaspora delbrueckii dsRNA Mbarr-1 killer virus strain EX1180 Kbarr-1 killer toxin gene, complete cds
+0.0005069	1	0	2	1	6.636e-06	687329	family	    Anelloviridae
+0.0005069	1	0	2	1	4.977e-05	687333	genus	      Gammatorquevirus
+0.0005069	1	0	2	1	0.0007491	2065046	species	        Torque teno midi virus 5
+0.0005069	1	0	2	1	0.0007491	1000015132	assembly	          GCF_002818585.1 Torque teno midi virus 5
+0.0005069	1	1	2	1	0.0007491	1000015133	sequence	            NC_038352.1 Torque teno midi virus 5 DNA, complete genome, isolate: MDJHem2
+0.0005069	1	0	2	1	7.646e-07	10482	family	    Polydnaviridae
+0.0005069	1	0	2	1	1.069e-06	10485	genus	      Bracovirus
+0.0005069	1	0	2	1	4.064e-06	39640	species	        Cotesia congregata bracovirus
+0.0005069	1	0	2	1	4.064e-06	1000004503	assembly	          GCF_000844405.1 Cotesia congregata bracovirus
+0.0005069	1	1	2	1	8.198e-05	1000004504	sequence	            NC_006633.1 Cotesia congregata virus complete genome, segment Circle1
