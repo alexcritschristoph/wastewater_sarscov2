@@ -6,7 +6,7 @@ Internal note: The location for this repository and additional data on the IGI c
 
 The strategy for analyzing samples currently is three parted:
 
-1. Metagenomic assembly with megahit
+## 1. Metagenomic assembly with megahit
 
 Example command:
 `megahit -1 ./052920_01/5_13_A_S1_R1_001.fastq.gz -2 ./052920_01/5_13_A_S1_R2_001.fastq.gz -t 48 -o 052920_01_asm`
@@ -22,7 +22,10 @@ blastp -query 052920_01.contigs.faa -db ../../viral_db/human_viruse_proteins.faa
 
 We can also do much larger BLASTs, including the BLAST to uniprot and KEGG, as is done for ggkbase import, later.
 
-2. Mapping to the SARS-CoV-2 reference
+In the future with NovaSeq runs, we will do metagenomic binning and genome curation, of course.
+
+## 2. Mapping to the SARS-CoV-2 reference
+
 (`./reference.fna`)
 `bowtie2 -p 20 -x reference.fasta -1 ../raw/052920_04/5_19_A_S4_R1_001.fastq.gz -2 ../raw/052920_04/5_19_A_S4_R2_001.fastq.gz  | sambam > 052920_04.bam`
 
@@ -45,9 +48,9 @@ We then profile this BAM with inStrain:
 inStrain profile 052920_04_nodup.bam -l 0.9 ../reference.fasta -o 052920_04_instrain
 ```
 
-We will want to manually verify and filter every SNP. The next version of inStrain should have some SNP filtering that is high quality enough to believe every SNP without this, but for this project we will still want to look at every SNP we find.
+We will want to manually verify and filter every SNP. The next version of inStrain (hopefully out soon) should have some SNP filtering that is high quality enough to believe every SNP without this, but for this project we will still want to look at every SNP we find.
 
-3. Known viral analysis with Kraken-uniq
+## 3. Known viral analysis with Kraken-uniq
 Kraken-uniq paper:
 https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1568-0
 
