@@ -1,0 +1,2 @@
+genome	detected_scaffolds	true_scaffolds	true_length	SNPs	BiAllelic_SNPs	MultiAllelic_SNPs	consensus_SNPs	population_SNPs	breadth	coverage	std_cov	mean_clonality	rarefied_mean_microdiversity	conANI	popANI	unmaskedBreadth	expected_breadth
+all_scaffolds	1	1	29840	73	65	0	14	8	0.9992292225201072	13.0375	8.045137070256947	0.9970081931946198	0.007359115787632597	0.9995254559012948	0.9997288319435971	0.9886729222520108	0.9999899918670448

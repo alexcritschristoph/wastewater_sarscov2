@@ -1,0 +1,32 @@
+..:: Overall ::..
+InStrain version 1.2.14 started at 2020-08-08 14:48:18 and ended at 2020-08-08 14:48:42.
+Runtime = 24 seconds
+Command = /home/alexcc/.pyenv/versions/3.8.2/bin/inStrain profile -c 3 6_30_S_COL.bam reference.fasta -o 6_30_S_COL
+
+..:: Checkpoints ::..
+filter_reads         took <1 second       (4.2% of overall)	RAM use increased by - 130.89 MB
+profile_scaffolds    took 11 seconds      (45.8% of overall)	RAM use increased by - 2.00 GB
+genome_wide          took 3 seconds       (12.5% of overall)	RAM use increased by 1.38 GB
+making_plots         took 9 seconds       (37.5% of overall)	RAM use increased by - 273.72 MB
+
+..:: Profile RAM useage and paralellization efficiency ::..
+Wall time for Profile         	7 seconds
+Total number processes used   	1
+Average number processes used 	1.0
+Paralellization efficiency    	100.0%
+Scaffolds profiled            	1
+Average time per scaffold     	7.0 seconds
+Median time per scaffold      	7.0 seconds
+Maximum scaffold time         	7.0 seconds
+Longest running scaffold      	hCoV-19_Wuhan_WIV04_2019_EPI_ISL_402124_2019-12-30
+System RAM available          	1.97 TB
+Starting RAM usage (%)        	10.8%
+Ending RAM usage (%)          	10.8%
+Peak RAM used                 	218.59 GB
+Mimimum RAM used              	217.75 GB
+0 scaffolds needed to be run a second time
+
+..:: Genes paralellization efficiency ::..
+
+..:: Failures ::..
+No failures

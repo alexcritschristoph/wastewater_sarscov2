@@ -1,0 +1,4 @@
+r2	d_prime	r2_normalized	d_prime_normalized	total	countAB	countAb	countaB	countab	allele_A	allele_a	allele_B	allele_b	distance	position_A	position_B	scaffold
+0.9999999999999998	1.0	1.0	1.0	25	18	0	0	7	A	G	A	G	1	28880	28881	hCoV-19_Wuhan_WIV04_2019_EPI_ISL_402124_2019-12-30
+0.9999999999999998	1.0	1.0	1.0	25	18	0	0	7	A	G	C	G	2	28880	28882	hCoV-19_Wuhan_WIV04_2019_EPI_ISL_402124_2019-12-30
+0.9999999999999998	1.0	1.0	1.0	25	18	0	0	7	A	G	C	G	1	28881	28882	hCoV-19_Wuhan_WIV04_2019_EPI_ISL_402124_2019-12-30

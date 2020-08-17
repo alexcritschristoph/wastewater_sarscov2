@@ -4,6 +4,23 @@ A repository for sharing data, analyses, and results from Bay Area wastewater Sa
 Internal note: The location for this repository and additional data on the IGI compute cluster is:
 `/groups/banfield/projects/industrial/wastewater_bayarea/2020`
 
+
+## 0. Current SNP filtering settings:
+
+```
+## this list of masked sites is from:
+## http://virological.org/t/masking-strategies-for-sars-cov-2-alignments/480
+problem_sites = pd.read_csv('./data/problematic_sites_sarsCov2.vcf', comment="#", sep="\t")
+filter_sites = problem_sites.query("FILTER=='mask'") # keep sites that we want to mask
+filter_sites.loc[:,'POS'] = filter_sites['POS'] - 1 # convert to inStrain's 0-based index
+
+for fn in glob.glob('./data/wastewater/*/output/*SNVs.tsv'):
+    data = pd.read_csv(fn, sep="\t")
+    data = data.query("allele_count==2") # only biallelic sites
+    data = data.query("varFreq>0.1") # at least 10% frequency
+    data = data[~data.position.isin(filter_sites['POS'])] # not in problematic sites list
+```
+
 The strategy for analyzing samples currently is three parted:
 
 ## 1. Metagenomic assembly with megahit

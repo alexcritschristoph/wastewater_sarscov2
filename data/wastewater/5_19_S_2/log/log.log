@@ -1,0 +1,186 @@
+20-08-08 14:48:18 DEBUG    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+20-08-08 14:48:18 DEBUG    ***Logger started up at /groups/banfield/projects/industrial/wastewater_bayarea/2020/combined_good/bams/5_19_S_2/log/log.log***
+20-08-08 14:48:18 DEBUG    Command to run inStrain was: /home/alexcc/.pyenv/versions/3.8.2/bin/inStrain profile -c 3 5_19_S_2.bam reference.fasta -o 5_19_S_2
+
+20-08-08 14:48:18 DEBUG    inStrain version 1.2.14 was run 
+
+20-08-08 14:48:18 DEBUG    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+20-08-08 14:48:18 INFO     sorting 5_19_S_2.bam
+20-08-08 14:48:18 INFO     Indexing 5_19_S_2.sorted.bam
+20-08-08 14:48:18 INFO     ***************************************************
+    ..:: inStrain profile Step 1. Filter reads ::..
+***************************************************
+        
+20-08-08 14:48:18 DEBUG    Checkpoint filter_reads start RAM is 1929474334720
+20-08-08 14:48:18 DEBUG    running hCoV-19_Wuhan_WIV04_2019_EPI_ISL_402124_2019-12-30 reads
+20-08-08 14:48:18 DEBUG    returning hCoV-19_Wuhan_WIV04_2019_EPI_ISL_402124_2019-12-30 reads
+20-08-08 14:48:18 INFO     Making read report
+20-08-08 14:48:18 DEBUG    running on all reads
+20-08-08 14:48:18 DEBUG    running on individual scaffolds
+20-08-08 14:48:18 INFO     Filtering reads
+20-08-08 14:48:18 INFO     2,377 read pairs remain after filtering
+20-08-08 14:48:18 DEBUG    Checkpoint filter_reads end RAM is 1929545809920
+20-08-08 14:48:18 INFO     ***************************************************
+.:: inStrain profile Step 2. Profile scaffolds ::..
+***************************************************
+        
+20-08-08 14:48:18 DEBUG    Checkpoint profile_scaffolds start RAM is 1929545175040
+20-08-08 14:48:22 DEBUG    
+hCoV-19_Wuhan_WIV04_2019_EPI_ISL_402124_2019-12-30 PID 225618 start at 1596923298.647955 with 117850112 RAM. System has 1930089803776 of 2163694489600 available
+hCoV-19_Wuhan_WIV04_2019_EPI_ISL_402124_2019-12-30 PID 225618 end at 1596923302.5948489 with 130768896 RAM. System has 1929248681984 of 2163694489600 available
+20-08-08 14:48:22 DEBUG    Done processing scaffolds- making SNV profile
+20-08-08 14:48:25 INFO     Storing output
+20-08-08 14:48:25 DEBUG    Writing output files now
+20-08-08 14:48:26 DEBUG    Checkpoint profile_scaffolds end RAM is 1928478375936
+20-08-08 14:48:26 INFO     ***************************************************
+  .:: inStrain profile Step 3. Profile genes ::..
+***************************************************
+        
+20-08-08 14:48:26 INFO     Nevermind! You didnt include a genes file
+20-08-08 14:48:26 INFO     ***************************************************
+.:: inStrain profile Step 4. Make genome-wide ::..
+***************************************************
+        
+20-08-08 14:48:26 DEBUG    Checkpoint genome_wide start RAM is 1928477741056
+20-08-08 14:48:26 DEBUG    Loading scaffold to bin
+20-08-08 14:48:26 INFO     Scaffold to bin will consider all scaffolds the same genome
+20-08-08 14:48:28 DEBUG    GenomeWide compare failed 
+Traceback (most recent call last):
+  File "/home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/inStrain/genomeUtilities.py", line 508, in main
+    gdb = genomeWideFromIS(IS, 'read_compaer', mm_level=mm_level)
+  File "/home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/inStrain/genomeUtilities.py", line 92, in genomeWideFromIS
+    gdb = _add_stb(db, stb)
+  File "/home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/inStrain/genomeUtilities.py", line 130, in _add_stb
+    gdb = db.copy()
+AttributeError: 'NoneType' object has no attribute 'copy'
+20-08-08 14:48:28 DEBUG    Checkpoint genome_wide end RAM is 1927781748736
+20-08-08 14:48:28 INFO     ***************************************************
+ .:: inStrain profile Step 5. Generate plots ::..
+***************************************************
+        
+20-08-08 14:48:28 DEBUG    Checkpoint making_plots start RAM is 1927781748736
+20-08-08 14:48:29 INFO     making plots 1, 2, 3, 4, 5, 6, 7, 8, 9
+20-08-08 14:48:30 INFO     Plotting plot 1
+20-08-08 14:48:31 DEBUG    findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 2.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 3.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 3.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 2.335
+20-08-08 14:48:31 DEBUG    findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 2.050000.
+20-08-08 14:48:31 DEBUG    Assigning font /b'F1' = '/home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+20-08-08 14:48:31 DEBUG    findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 2.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 3.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 3.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+20-08-08 14:48:31 DEBUG    findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 2.335
+20-08-08 14:48:31 DEBUG    findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 2.050000.
+20-08-08 14:48:31 DEBUG    Embedding font /home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+20-08-08 14:48:31 DEBUG    Writing TrueType font.
+20-08-08 14:48:31 INFO     Plotting plot 2
+20-08-08 14:48:32 DEBUG    Assigning font /b'F1' = '/home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+20-08-08 14:48:32 DEBUG    Embedding font /home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+20-08-08 14:48:32 DEBUG    Writing TrueType font.
+20-08-08 14:48:33 INFO     Plotting plot 3
+20-08-08 14:48:33 DEBUG    Assigning font /b'F1' = '/home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+20-08-08 14:48:33 DEBUG    Embedding font /home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+20-08-08 14:48:33 DEBUG    Writing TrueType font.
+20-08-08 14:48:34 INFO     Plotting plot 4
+20-08-08 14:48:34 DEBUG    Assigning font /b'F1' = '/home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+20-08-08 14:48:34 DEBUG    Embedding font /home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+20-08-08 14:48:34 DEBUG    Writing TrueType font.
+20-08-08 14:48:34 INFO     Plotting plot 5
+20-08-08 14:48:34 DEBUG    Assigning font /b'F1' = '/home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+20-08-08 14:48:34 DEBUG    Embedding font /home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+20-08-08 14:48:34 DEBUG    Writing TrueType font.
+20-08-08 14:48:35 INFO     Plotting plot 6
+20-08-08 14:48:35 DEBUG    Assigning font /b'F1' = '/home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+20-08-08 14:48:35 DEBUG    Embedding font /home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+20-08-08 14:48:35 DEBUG    Writing TrueType font.
+20-08-08 14:48:36 INFO     Plotting plot 7
+20-08-08 14:48:37 DEBUG    Assigning font /b'F1' = '/home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+20-08-08 14:48:37 DEBUG    Embedding font /home/alexcc/.pyenv/versions/3.8.2/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+20-08-08 14:48:37 DEBUG    Writing TrueType font.
+20-08-08 14:48:37 ERROR    Skipping plot 8 - you don't have all required information. You need to run inStrain profile_genes first
+20-08-08 14:48:38 ERROR    Skipping plot 9 - you don't have all required information. You need to run inStrain profile_genes first
+20-08-08 14:48:38 DEBUG    Checkpoint making_plots end RAM is 1928934486016
+20-08-08 14:48:38 INFO     $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+    ..:: inStrain profile finished ::..
+
+Output tables........ /groups/banfield/projects/industrial/wastewater_bayarea/2020/combined_good/bams/5_19_S_2/output/
+Figures.............. /groups/banfield/projects/industrial/wastewater_bayarea/2020/combined_good/bams/5_19_S_2/figures/
+
+See documentation for output descriptions - https://instrain.readthedocs.io/en/latest/
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+        
+20-08-08 14:48:38 DEBUG    inStrain complete; shutting down logger and printing run stats (log location = /groups/banfield/projects/industrial/wastewater_bayarea/2020/combined_good/bams/5_19_S_2/log/log.log)
