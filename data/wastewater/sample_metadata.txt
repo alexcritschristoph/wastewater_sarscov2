@@ -1,0 +1,9 @@
+sample	location	date
+5_19_S_2	Oakland	5-19
+5_19_S	Oakland	5-19
+5_28_S	Oakland	5-28
+6_09_S	Oakland	6-09
+6_30_S_COL	Oakland	6-30
+6_30_S_MOS	Oakland	6-30
+MR_7_1_MOS	Marin	7-1
+SQ_7_1_MOS	SanQuentin	7-1
