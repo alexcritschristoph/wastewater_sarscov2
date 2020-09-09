@@ -8,15 +8,19 @@ Internal note: The location for this repository and additional data on the IGI c
 
 ### Notebooks
 `./notebooks/CovidWastewater_1_makeTables_3_allTables_v2.ipynb` - Creates tables from clinical data downloaded from GISAID.
+
 `./notebooks/Primary_analysis_and_plots.ipynb` - Reproduce most figures in the manuscript.
-`./notebooks/CovidWastewater_2_plotting_6.ipynb ` - Reproduce figure 3a in the manuscript.
+
+`./notebooks/CovidWastewater_2_plotting_6.ipynb` - Reproduce figure 3a in the manuscript.
 
 ### Tables
 `./tables/Interpatient_SNVs_v2.csv.gz` - All SNV data from clinical samples (Aug 23rd, 2020).
+
 `./tables/Wastewater_SNVs_v2.csv ` - All SNVs observed in wastewater samples
 
 ### Raw data
 `./data/wastewater/` - Filtered bams and inStrain outputs of all wastewater samples.
+
 `./data/viral_abundance_analysis/` - All data related to mapping to all RefSeq viruses for relative abundances.
 
 
