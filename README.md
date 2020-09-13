@@ -3,6 +3,8 @@ A repository for sharing data, analyses, and results from Bay Area wastewater Sa
 
 Note: our internal SNV calling uses a 0-based index (so the first position in the genome is 0), so that indexing is used in this repository; we convert to 1-based in supplementary tables.
 
+Note:  The 7 high quality genomes described in our MS passed all quality control metrics predicted by NextClade.
+
 Internal note: The location for this repository and additional data on the IGI compute cluster is:
 `/groups/banfield/projects/industrial/wastewater_bayarea/2020`
 
