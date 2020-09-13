@@ -21,6 +21,9 @@ Internal note: The location for this repository and additional data on the IGI c
 `./tables/Wastewater_SNVs_v2.csv ` - All SNVs observed in wastewater samples
 
 ### Raw data
+
+`./data/wastewater/wastewaster.fasta` - consensus genomes from each wastewater sample.
+
 `./data/wastewater/` - Filtered bams and inStrain outputs of all wastewater samples.
 
 `./data/viral_abundance_analysis/` - All data related to mapping to all RefSeq viruses for relative abundances.
